@@ -1,13 +1,14 @@
 import React from 'react';
-import AlbumCard from './components/AlbumCard';
+import InputMessage from './components/InputMessage';
+//import AlbumCard from './components/AlbumCard';
 // temp import
 //import components
-import AlbumList from './components/AlbumList';
+//import AlbumList from './components/AlbumList';
 
 function App() {
   return (
     <div>
-    <AlbumList/>
+    <InputMessage/>
     </div>
   );
 }

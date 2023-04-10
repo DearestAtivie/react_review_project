@@ -14,6 +14,9 @@ const StarRating = () => {
         for (let i = 0; i < maxRating; i++) {
             stars.push(
                 <Star
+
+                isSelected={albumRating >i}
+                setRating={() => handleSetRating(i+1)}
                     key={i}
                 />
             )
