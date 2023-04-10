@@ -3,6 +3,8 @@ import Star from './Star';
 const StarRating = () => {
     // Initialize a 'albumRating' state
 
+    const[albumRating, setAlbumRating] = useState(0);
+
 
     // Write a function that returns 5 Star components
 
@@ -24,6 +26,10 @@ const StarRating = () => {
     }
 
     // Write an event handler that updates the albumRating state.
+    
+    const handleSetRating = (rating) => {
+        setAlbumRating(rating);
+    }
     // Pass the function to a Star component via props
     
 

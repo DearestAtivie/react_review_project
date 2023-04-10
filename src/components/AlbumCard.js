@@ -23,7 +23,7 @@ transition: 0.3s;
 boarder-radius: 5px;
 width: 40%;
 text-align: center;
-margin: auto;
+margin: 50px auto;
 padding: 60px 20px 40px 10px;
 background-color: #ADD8E6;
 
